@@ -17,7 +17,7 @@ for rule in rules:
                         for x in contained_bags]
 
 # Part 1
-# now iterate over each bag and figure out if they can eventually contain a shiny gold bag.
+# Extremely awful hacky solution for speed and not correctness
 
 
 def search_bags(bags, lst, original_color):
